@@ -3,7 +3,6 @@ body {background:url(../images/background2.jpg); margin:25px 0; padding:0; font-
 
 #page {width:960px; background:#efefef; margin:auto;}
 
-#subheader p {padding:9px 28px; margin:0; background:url(../images/propeller.jpg) no-repeat 10px 10px; font-size:70%;}
 #header {margin:0 0 0 -11px; width:982px; height:134px; background:url(../images/header.jpg) top left no-repeat; position:relative; font-family: 'Oswald', sans-serif; color:#fff;}
 #header h2 {position:absolute; left:126px; top:-20px; font-size:40px; text-shadow: 4px 4px 4px #535353;text-transform:uppercase;}
 #header p {position:absolute; left:128px; top:55px;text-transform:uppercase;}
