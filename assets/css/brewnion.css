@@ -2,13 +2,15 @@
 body {background:url(../images/background2.jpg); margin:25px 0; padding:0; font-family:Arial, Helvetica, sans-serif}
 
 
-#header {height:134px; background:url(../images/header.jpg) top left no-repeat; position:relative; font-family: 'Oswald', sans-serif; }
+#header { background:url(../images/header.jpg) top left no-repeat; background-size:cover; position:relative; font-family: 'Oswald', sans-serif; }
 #header h2 {padding:30px 0 0 126px; margin:0; font-size:40px; text-shadow: 4px 4px 4px #535353; text-transform:uppercase;color:#fff;}
-#header p {padding:0px 0 0 126px; margin:0; text-transform:uppercase; color:#fff;}
-#header ul {margin:0; padding:0; list-style-type:none; position:absolute; right:0; bottom:40px; }
-#header li {background-color:#000; float:left; padding:3px 20px;}
-#header a {color:#fff; font-size:14px; text-decoration:none;}
-#header a:hover {color:#A0EC4B;}
+#header p {padding:0px 0 20px 126px; margin:0; text-transform:uppercase; color:#fff;}
+
+.navigation {background-color:#000;}
+.navigation ul {list-style-type: none;}
+.navigation ul li {display: block; width: 33%; max-width:100px; float:left;}
+.navigation ul li a {color:#fff; display: block; line-height: 2.5em; }
+.navigation ul li a:hover {color:#A0EC4B;}
 
 #container {background-color:#fff; padding-top:25px; padding-bottom:25px}
 
