@@ -11,8 +11,8 @@ body {background:url(../images/background2.jpg); margin:25px 0; padding:0; font-
 
 .navigation {background-color:#000;}
 .navigation ul {list-style-type: none;}
-.navigation ul li {display: block;  width:100px; float:left;}
-.navigation ul li a {color:#fff; display: block; line-height: 2.5em; }
+.navigation ul li {display: block;  width:auto; float:left;}
+.navigation ul li a {color:#fff; display: block; line-height: 2.5em; padding-right:3em;}
 .navigation ul li a:hover {color:#A0EC4B;}
 
 .container {background-color:#fff; padding-top:25px; padding-bottom:25px}
