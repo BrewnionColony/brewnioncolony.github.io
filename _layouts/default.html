@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 	<title>{{page.title}}</title>
+    <link href="/assets/css/foundation.min.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/brewnion.css" rel="stylesheet" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <meta name="description" content="Brewnion Colony home brew club meets every  first tuesday at Pitchers' Brewpub in Greeley, Colorado. The group is made up of beer, wine and cider makers from northern colorado." />
@@ -10,8 +11,8 @@
 
 <body>
 
-<div id="page">
-  <div id="header">
+<div class="row">
+  <div class="small-12 columns" id="header">
   	<h2>Brewnion Colony</h2>
     <p>Homebrew Club, Greeley, Colorado</p>
     <ul>
@@ -20,17 +21,20 @@
         <li><a href="https://www.facebook.com/groups/68920666101/" target="_blank">Facebook</a></li>
     </ul>
   </div>
-  <div id="container">
-    <div id="content">
+</div>
+<div class="row" id="container">
+    <div class="medium-8 columns" id="content">
       {{ content }}
     </div>
-    <div id="rightcol">
+    <div  class="medium-3 medium-offset-1 columns" id="rightcol">
     	{% include meetings.html %}
     </div>
   </div>
 </div>
-<div id="footer">
-	<p>&copy;2015 Brewnion Colony</p>
+<div class="row">
+  <div class="small-12 columns" id="footer">
+    <p class="text-center">&copy;2015 Brewnion Colony</p>
+  </div>
 </div>
 
 </body>
