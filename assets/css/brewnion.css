@@ -2,9 +2,9 @@
 body {background:url(../images/background2.jpg); margin:25px 0; padding:0; font-family:Arial, Helvetica, sans-serif}
 
 
-#header { background:url(../images/header.jpg) top left no-repeat; background-size:cover; position:relative; font-family: 'Oswald', sans-serif; }
-#header h2 {padding:30px 0 0 126px; margin:0; font-size:40px; text-shadow: 4px 4px 4px #535353; text-transform:uppercase;color:#fff;}
-#header p {padding:0px 0 20px 126px; margin:0; text-transform:uppercase; color:#fff;}
+.header { background:url(../images/header.jpg) top left no-repeat; background-size:cover; position:relative; font-family: 'Oswald', sans-serif; }
+.header h2 {padding:30px 0 0 126px; margin:0; font-size:40px; text-shadow: 4px 4px 4px #535353; text-transform:uppercase;color:#fff;}
+.header p {padding:0px 0 20px 126px; margin:0; text-transform:uppercase; color:#fff;}
 
 .navigation {background-color:#000;}
 .navigation ul {list-style-type: none;}
@@ -12,15 +12,15 @@ body {background:url(../images/background2.jpg); margin:25px 0; padding:0; font-
 .navigation ul li a {color:#fff; display: block; line-height: 2.5em; }
 .navigation ul li a:hover {color:#A0EC4B;}
 
-#container {background-color:#fff; padding-top:25px; padding-bottom:25px}
+.container {background-color:#fff; padding-top:25px; padding-bottom:25px}
 
-#container h1 {color:#2d3b00; font-family: 'Oswald', sans-serif; font-size:1.75em;}
-#container h2 {color:#353535; font-family: 'Oswald', sans-serif; font-size:1.3em;}
-#container h3 {color:#4a6105; font-size:1em;}
-#container p {color:#696969; font-size:.9em; line-height: 1.5em;}
-#container li {color:#696969; font-size:.9em;}
+.container h1 {color:#2d3b00; font-family: 'Oswald', sans-serif; font-size:1.75em;}
+.container h2 {color:#353535; font-family: 'Oswald', sans-serif; font-size:1.3em;}
+.container h3 {color:#4a6105; font-size:1em;}
+.container p {color:#696969; font-size:.9em; line-height: 1.5em;}
+.container li {color:#696969; font-size:.9em;}
 
-#rightcol ul {list-style-type: none; padding-left: 0; margin-left: 0}
-#rightcol li {margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #bbb;}
+.rightcol ul {list-style-type: none; padding-left: 0; margin-left: 0}
+.rightcol li {margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #bbb;}
 
-#footer p, #footer a {color:#bdbdbd; font-size:9px; text-decoration:none;}
+.footer p, .footer a {color:#bdbdbd; font-size:9px; text-decoration:none;}
