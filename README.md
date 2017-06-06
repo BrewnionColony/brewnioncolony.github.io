@@ -1,5 +1,5 @@
 # brewnioncolony.github.io
-Website for Brewnion Colony Homebrew Club
+[Website for Brewnion Colony Homebrew Club](http://brewnioncolony.github.io)
 
 
 ## Setup
